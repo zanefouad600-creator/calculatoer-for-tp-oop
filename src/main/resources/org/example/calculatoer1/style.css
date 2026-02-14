@@ -1,65 +1,61 @@
-/* الخلفية الرئيسية */
+
 #Background {
-    -fx-background-color: #000000; /* أسود صريح */
+    -fx-background-color: #000000;
 }
 
-/* شاشة العرض */
+
 #displayCurrent {
     -fx-text-fill: white;
     -fx-font-size: 40px;
 }
 
 #displayPrevious {
-    -fx-text-fill: white; /* رمادي فاتح للنص العلوي */
+    -fx-text-fill: white;
 }
 
-/* الأزرار العلوية (رمادي فاتح) */
+
 #clearButton, #deleteButton, #modButton {
     -fx-background-color: #1e1a17;
     -fx-text-fill: white;
 }
 
-/* أزرار العمليات الجانبية (برتقالي) */
 #divideButton, #multiplyButton, #minusButton, #plusButton {
     -fx-background-color: #1e1a17;
     -fx-text-fill: white;
 }
-
-/* أزرار الأرقام (رمادي غامق) */
 #num0, #num1, #num2, #num3, #num4, #num5, #num6, #num7, #num8, #num9,#negateButton,#decimalButton{
-    -fx-background-color: #333333; /* تم تصحيح الكود من #3333 إلى #333333 */
+    -fx-background-color: #333333;
     -fx-text-fill: white;
 }
 
-/* زر التساوي (برتقالي) */
+
 #equalsButton {
     -fx-background-color: #FF9500;
     -fx-text-fill: white;
 }
 .button {
-    /* تجعل الحواف دائرية دائماً مهما تمدد الزر */
+
     -fx-background-radius: 500;
 
-    /* لضمان أن الزر لا يصبح طويلاً جداً أو نحيفاً جداً */
+
     -fx-min-width: 50px;
     -fx-min-height: 50px;
 
-    /* لجعل النص دائماً في المنتصف */
     -fx-alignment: center;
 }
-/* 8أثير المرور (Hover) لكل الأزرار */
+
 .button:hover {
-    -fx-opacity: 0.8; /* الشفافية تعمل دائماً حتى لو اللون الأصلي قوي */
+    -fx-opacity: 0.8;
     -fx-cursor: hand;
 }
 
-/* تأثير الضغط (Pressed) لكل الأزرار */
+
 .button:pressed {
-    -fx-background-color: white; /* سيتغير اللون للأبيض لحظة الضغط لتتأكد أنه يعمل */
+    -fx-background-color: white;
     -fx-text-fill: black;
 }
 
-/* لجعل أزرار الأرقام تتفاعل بلون محدد */
+
 .button:hover {
     -fx-brightness: 1;
 }

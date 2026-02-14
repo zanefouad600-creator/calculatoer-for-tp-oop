@@ -21,7 +21,7 @@ public class CalcoulatoerController {
             displayCurrent.setText(number);
             startNewNumber = false;
         } else {
-            // منع تكرار الأصفار في البداية
+
             if (displayCurrent.getText().equals("0")) {
                 displayCurrent.setText(number);
             } else {
